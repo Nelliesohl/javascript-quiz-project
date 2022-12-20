@@ -1,4 +1,5 @@
 /* Google Fonts Import */
+
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Jaldi&display=swap');
 
 /* Removes Default Border, Padding And Margin */ 
@@ -8,3 +9,9 @@
     padding: 0;
     margin: 0;
   }
+
+/* Body */
+
+body {
+    background-color: black;
+}
