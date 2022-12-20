@@ -63,6 +63,12 @@ Sans-Serif is the fallback font in case for any reason the font isn't being impo
 
 ## Wireframes
 
+Created with [Balsamiq](https://balsamiq.cloud/#) 
+
+![Wireframe Screenshot](/assets/images/wf-one.png)
+![Wireframe Screenshot](/assets/images/wf-two.png)
+![Wireframe Screenshot](/assets/images/wf-three.png)
+
 ---
 
 ## Features
