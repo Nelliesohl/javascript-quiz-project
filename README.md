@@ -75,15 +75,43 @@ Created with [Balsamiq](https://balsamiq.cloud/#)
 
 __Landing page__
 
+![Web Screenshot](/...)
+
+- The landing page is clear, simplistic, and easy to navigate.
+- The quiz title and description give the user an instant insight as to what the quiz is about and how it’s played.
+- The “Let’s Begin” button changes color when hovered over, and the curser will change shape to a pointer.
+- The page is responsive to different screen sizes.
+
 __Quiz section__
 
+![Web Screenshot](/...)
+
+- The quiz section displays a question and four different answers for the user to choose from.
+- One option must be selected to submit and move on to the next question.
+- If the correct answer is submitted the quiz border turns green to give the user direct feedback on her/his action.
+- If a wrongful answer is submitted the quiz border turns red to give the user direct feedback on her/his action.
+- The “Submit” button will change color when hovered over, and the curser will change shape to a pointer.
+- The page is responsive to different screen sizes.
+
 __Result section__
+
+![Web Screenshot](/...)
+
+- The result section displays the user’s total score and congratulates the user on her/his accomplishments.
+- The “Try Again” button offers the user to play again, taking them back to the first question if clicked.
+- The page is responsive to different screen sizes.
 
 ---
 
 ## Future Features
 
 __Ideas for future implementation__
+- Additional questions
+- Question counter
+- Progress counter
+- Score counter
+- Leaderboard
+- Timer
 
 ---
 
