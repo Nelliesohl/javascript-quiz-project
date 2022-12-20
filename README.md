@@ -45,9 +45,19 @@ __Visitor Goals__
 
 __Colour Scheme__
 
+![Wireframe Screenshot](/assets/images/color-scheme.png)
+
+The main colours used are #FFFFFF (white), #FEC726 (yellow), and #000000 (black), these colours compliment each other well, producing a clean and bold design. The colour scheme inspiration comes from the JavaScript logo.
+
 ---
 
 __Typography__
+
+Jaldi and AbeeZee are the main fonts used in this project. 
+
+Jaldi is a simple but bold font suitable for headings. 
+Abeezee is a complimentary font that suits the overall site design. 
+Sans-Serif is the fallback font in case for any reason the font isn't being imported into the site correctly.
 
 ---
 
