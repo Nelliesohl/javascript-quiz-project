@@ -8,10 +8,43 @@
     border: none;
     padding: 0;
     margin: 0;
-  }
+}
 
 /* Body */
 
 body {
+    align-items: center;
     background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Headings And Paragraphs */ 
+
+h1 {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    padding: 1rem;
+}
+
+p {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0 2rem 0 2rem;
+}
+
+/* List Items */
+
+ul {
+    display: inline-block;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem 3rem;
+    text-align: left;
 }
