@@ -13,11 +13,7 @@
 /* Body */
 
 body {
-    align-items: center;
     background-color: black;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
     text-align: center;
 }
 
@@ -51,6 +47,13 @@ ul {
 
 /* Div Containers */
 
+.page-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+}
+
 .heading-container {
     padding-top: 2rem;
 }
@@ -58,13 +61,19 @@ ul {
 .quiz-container {
     background-color: white;
     border-radius: 10px;
-    display: inline-block;
     width: 80%;
+    margin: auto;
 }
 
 .info-container {
     margin: 2rem 1rem 2rem 1rem;
 } 
+
+/* Sections */
+
+#quiz {
+    width: 100%;
+}
 
 /* Buttons */
 
@@ -87,6 +96,7 @@ button:hover {
   }
 
 .radio-btns {
+    cursor: pointer;
     list-style: none;
     padding: 0rem;
 }  
@@ -94,7 +104,6 @@ button:hover {
 .radio-btns li {
     padding: 1rem;
 }
-
 
 /* Heading Underline */
 
@@ -112,3 +121,4 @@ button:hover {
 .hidden {
     display: none;
 }
+

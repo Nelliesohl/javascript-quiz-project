@@ -15,57 +15,59 @@
 </head>
 <body>
     <main>
-        <section>
-            <div class="quiz-container" id="info">
-                <div class="heading-container">
-                    <h1>JavaScript Quiz</h1>
-                    <hr class="line">
+        <div class="page-container">
+            <section id="info"> <!-- Start Section -->
+                <div class="quiz-container">
+                    <div class="heading-container">
+                        <h1>JavaScript Quiz</h1>
+                        <hr class="line">
+                    </div>
+                    <div class="info-container">
+                        <p>
+                            Want to test your knowledge of the most popular programming language out there? Give our free JavaScript Quiz a try! 
+                            Let’s see if you can call yourself a JavaScript expert, or if you’ll learn some more JavaScript essentials to add to your skill set.
+                        </p>
+                        <ul>
+                            <li>Our quiz has ten questions picked at random, and they’re all multiple choices.</li>
+                            <li>You will get 1 point for each correct answer.</li>
+                            <li>At the end of the quiz, your total score will be displayed.</li>
+                        </ul>
+                        <p>How many answers can you get right?</p>
+                    </div>
+                    <button id="info-btn"><strong>Let's begin</strong></button>
                 </div>
-                <div class="info-container">
-                    <p>
-                        Want to test your knowledge of the most popular programming language out there? Give our free JavaScript Quiz a try! 
-                        Let’s see if you can call yourself a JavaScript expert, or if you’ll learn some more JavaScript essentials to add to your skill set.
-                    </p>
-                    <ul>
-                        <li>Our quiz has ten questions picked at random, and they’re all multiple choices.</li>
-                        <li>You will get 1 point for each correct answer.</li>
-                        <li>At the end of the quiz, your total score will be displayed.</li>
-                    </ul>
-                    <p>How many answers can you get right?</p>
+            </section>
+            <section class="hidden" id="quiz"> <!-- Quiz Section -->
+                <div class="quiz-container">
+                    <div class="heading-container">
+                        <h1 id="question">Question</h1>
+                        <hr class="line">
+                    </div>
+                    <div class="info-container">
+                        <ul class="radio-btns">
+                            <li>
+                                <input id="option-a" class="answer" type="radio" name="answer">
+                                <label id="a" for="option-a">Option 1</label>
+                            </li>
+                            <li>
+                                <input id="option-b" class="answer" type="radio" name="answer">
+                                <label id="b" for="option-b">Option 2</label>
+                            </li>
+                            <li>
+                                <input id="option-c" class="answer" type="radio" name="answer">
+                                <label id="c" for="option-c">Option 3</label>
+                            </li>
+                            <li>
+                                <input id="option-d" class="answer" type="radio" name="answer">
+                                <label id="d" for="option-d">Option 4</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <button><strong>Submit</strong></button>
                 </div>
-                <button id="info-btn"><strong>Let's begin</strong></button>
-            </div>
-        </section>
-        <section>
-            <div class="quiz-container hidden" id="quiz">
-                <div class="heading-container">
-                    <h1 id="question">Question</h1>
-                    <hr class="line">
-                </div>
-                <div class="info-container">
-                    <ul class="radio-btns">
-                        <li>
-                            <input id="option-a" class="answer" type="radio" name="answer">
-                            <label id="a" for="option-a">Option 1</label>
-                        </li>
-                        <li>
-                            <input id="option-b" class="answer" type="radio" name="answer">
-                            <label id="b" for="option-b">Option 2</label>
-                        </li>
-                        <li>
-                            <input id="option-c" class="answer" type="radio" name="answer">
-                            <label id="c" for="option-c">Option 3</label>
-                        </li>
-                        <li>
-                            <input id="option-d" class="answer" type="radio" name="answer">
-                            <label id="d" for="option-d">Option 4</label>
-                        </li>
-                    </ul>
-                </div>
-                <button><strong>Submit</strong></button>
-            </div>
-        </section>
-        <section><!-- Final result --></section>
+            </section>
+            <section> <!-- Result Section --></section>
+        </div>
     </main>
     
     <!-- Connects JavaScript file -->
