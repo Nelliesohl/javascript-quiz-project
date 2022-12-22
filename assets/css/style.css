@@ -107,6 +107,16 @@ button:hover {
 
 .radio-btns li {
     padding: 1rem;
+    margin-left: 1rem;
+}
+
+input[type=radio] {
+    margin-right: 1rem;
+    transform: scale(1.6);
+}
+  
+label:hover {
+    cursor: pointer;
 }
 
 /* Heading Underline */
