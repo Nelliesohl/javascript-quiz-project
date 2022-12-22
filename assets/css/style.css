@@ -45,7 +45,7 @@ ul {
     font-family: 'poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
-    padding: 1rem 2rem 1rem 3rem;
+    padding: 2rem 2rem 2rem 4rem;
     text-align: left;
 }
 
@@ -59,7 +59,7 @@ ul {
     background-color: white;
     border-radius: 10px;
     display: inline-block;
-    width: 80%
+    width: 80%;
 }
 
 .info-container {
@@ -73,7 +73,7 @@ button {
     border-radius: 0 0 10px 10px;
     color: black;
     font-family: 'Jaldi', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     letter-spacing: 2px;
     padding: 1rem;
     text-align: center;
@@ -86,6 +86,16 @@ button:hover {
     cursor: pointer;
   }
 
+.radio-btns {
+    list-style: none;
+    padding: 0rem;
+}  
+
+.radio-btns li {
+    padding: 1rem;
+}
+
+
 /* Heading Underline */
 
 .line {
@@ -95,4 +105,10 @@ button:hover {
     height: 1rem;
     margin: auto;
     width: 80%;
+}
+
+/* Hides Elements */
+
+.hidden {
+    display: none;
 }
