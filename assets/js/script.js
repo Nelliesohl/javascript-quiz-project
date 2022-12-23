@@ -43,6 +43,14 @@ function displayQuizData() {
   }
 }
 
+function checkSelectedRadioButton() {
+  const selectedRadioButton = document.querySelector('input[name="answer"]:checked');
+  if (!selectedRadioButton) {
+    // Displays error message if no radio button is selected
+    alert("Please select an answer to continue.");
+  }
+}
+
 function handleChoice() {
   checkSelectedRadioButton();
   checkAnswer();
