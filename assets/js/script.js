@@ -1,7 +1,15 @@
 // DOM variables
 const info = document.getElementById("info")
-const infoBtn = document.getElementById("info-btn")
 const quiz = document.getElementById("quiz")
+const result = document.getElementById("result");
+
+const infoBtn = document.getElementById("info-btn")
+const submitBtn = document.getElementById("submit-btn");
+const restartBtn = document.getElementById("restart-btn");
+
+const radioButtons = document.getElementsByName("answer");
+const labels = document.getElementsByClassName("label");
+
 
 // Global variables used to track the number of correct answers and the current question
 let correctAnswers = 0;
