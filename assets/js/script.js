@@ -104,6 +104,17 @@ function clearQuiz() {
   }
 }
 
+function restartQuiz() {
+  // Resets variables
+  correctAnswers = 0;
+  currentQuestion = 0;
+
+  result.classList.add("hidden"); // Hides result section
+  quiz.classList.remove("hidden"); // Shows quiz section
+  
+  displayQuizData();
+}
+
 // Array of questions
 const quizData = [
   {
