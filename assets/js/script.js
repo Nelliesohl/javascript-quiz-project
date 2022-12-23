@@ -51,6 +51,16 @@ function checkSelectedRadioButton() {
   }
 }
 
+function checkAnswer() {
+  // Gets value of selected radio button
+  const choice = document.querySelector('input[name="answer"]:checked').value;
+
+  // Checks if it is the correct answer
+  if (choice === quizData[currentQuestion].answer) {
+    correctAnswers++;
+  }
+}
+
 function handleChoice() {
   checkSelectedRadioButton();
   checkAnswer();
@@ -70,6 +80,13 @@ function handleChoice() {
     clearQuiz();
     // Displays next question
     displayQuizData();
+  }
+}
+
+function clearQuiz() {
+  // Clears selected answers
+  for (var radioButton of radioButtons) {
+    radioButton.checked = false;
   }
 }
 
