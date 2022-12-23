@@ -138,6 +138,18 @@ __Ideas for future implementation__
 
 __Code Validation__ 
 
+![Web Screenshot](assets/images/html-checker.png)
+* HTML
+    * No errors were shown when passed through the HTML W3C Validator
+![Web Screenshot](assets/images/css-validator.png)
+* CSS
+    * No errors were shown when passed through the CSS Validator
+![Web Screenshot](assets/images/js-hint.png)
+* Javascript
+    * No errors were shown when passed through JSHint
+![Web Screenshot](assets/images/lighthouse.png)
+* Lighthouse
+
 ---
 
 __Unfixed Bugs__
