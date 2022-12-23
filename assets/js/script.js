@@ -111,7 +111,7 @@ function restartQuiz() {
 
   result.classList.add("hidden"); // Hides result section
   quiz.classList.remove("hidden"); // Shows quiz section
-  
+
   displayQuizData();
 }
 
@@ -149,7 +149,7 @@ const quizData = [
   },
   {
     question: "Which of the following function of String object returns a string representing the specified object?",
-    choices: ["toLocaleUpperCase(), toUpperCase()", "toString()", "substring()"],
+    choices: ["toLocaleUpperCase()", "toUpperCase()", "toString()", "substring()"],
     answer: "toString()"
   },
   {
