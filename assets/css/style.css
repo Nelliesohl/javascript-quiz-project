@@ -147,3 +147,54 @@ label:hover {
     border: 5px solid #D82000;
     border-style: outset;
 }
+
+/* Media Queries */
+
+/* 768px Wide And Below */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+    
+    ul {
+        font-size: 0.85rem;
+    }
+}
+
+/* 480px Wide And Below */
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .line {
+        height: 0.8rem;
+    }
+
+    button {
+        padding: 0.8rem;
+    }
+
+    p {
+        padding: 0;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+
+    .quiz-container {
+        width: 90%;
+    }
+}
