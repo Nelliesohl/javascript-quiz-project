@@ -188,13 +188,22 @@ __Forking the repository__
 
 __Code__
 
+    - To complete this project I used Code Institute student template: 
+    https://github.com/Code-Institute-Org/gitpod-full-template
+    - My main inspiration for this project: 
+    https://www.youtube.com/watch?v=CqddbIrEM5I
+    - Stack Overflow was used to solve various bugs and issues I had along the way.
+    - W3schools was used for research on various javascript syntax.
+    - Code Institute LMS course material and projects was used to help me build the quiz along the way
+    - Youtube was used to research how to go about building a javascript quiz.
+
 ---
 
 __Content__
 
----
-
-__Other__
+    - Fonts used were imported from: Google Fonts
+    - Quiz data taken from: 
+    https://www.tutorialspoint.com/javascript/javascript_online_quiz.htm
 
 ---
 
