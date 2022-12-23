@@ -1,6 +1,6 @@
 # JavaScript Quiz
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/mockup.png)
 
 Alongside HTML and CSS, JavaScript makes up the holy trinity of front-end technologies. Front ends of all websites, whether small or large, are built using these three languages and are a vital skill to have if you’re interested in becoming a front-end developer.
  
@@ -10,7 +10,7 @@ How much do you know about JavaScript?
 
 Let’s find out…
 
-View live project here - [JavaScript Quiz](…)
+View live project here - [JavaScript Quiz](https://nelliesohl.github.io/javascript-quiz-project/)
 
 
 ---
@@ -53,10 +53,10 @@ The main colours used are #FFFFFF (white), #FEC726 (yellow), and #000000 (black)
 
 __Typography__
 
-Jaldi and AbeeZee are the main fonts used in this project. 
+Jaldi and Poppins are the main fonts used in this project. 
 
 Jaldi is a simple but bold font suitable for headings. 
-Abeezee is a complimentary font that suits the overall site design. 
+Poppins is a complimentary font that suits the overall site design. 
 Sans-Serif is the fallback font in case for any reason the font isn't being imported into the site correctly.
 
 ---
@@ -75,7 +75,7 @@ Created with [Balsamiq](https://balsamiq.cloud/#)
 
 __Landing page__
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/landing-page.png)
 
 - The landing page is clear, simplistic, and easy to navigate.
 - The quiz title and description give the user an instant insight as to what the quiz is about and how it’s played.
@@ -84,7 +84,7 @@ __Landing page__
 
 __Quiz section__
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/quiz-section.png)
 
 - The quiz section displays a question and four different answers for the user to choose from.
 - One option must be selected to submit and move on to the next question.
@@ -95,7 +95,7 @@ __Quiz section__
 
 __Result section__
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/result-section.png)
 
 - The result section displays the user’s total score and congratulates the user on her/his accomplishments.
 - The “Try Again” button offers the user to play again, taking them back to the first question if clicked.
@@ -116,6 +116,17 @@ __Ideas for future implementation__
 ---
 
 ## Technology
+
+|Technology|Description|
+|:---:|:---:|
+|__HTML5__|Hyper Text Markup Language|
+|__CSS__|Cascading Style Sheets|
+|__JavaScript__|High Level, Dynamic, Interpreted Language|
+|__Google fonts__|Font Service Owned By Google|
+|__GitHub__|Code Hosting Platform|
+|__Git__|Version-Control Tracking System|
+|__Gitpod__|Open-Source Developer Platform For Remote Development|
+|__Balsamiq__|web-based user interface design tool for creating wireframes|
 
 ---
 
