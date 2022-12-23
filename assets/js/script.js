@@ -20,6 +20,7 @@ let currentQuestion = 0;
 // Event listeners
 infoBtn.addEventListener("click", displayQuiz);
 submitBtn.addEventListener("click", handleChoice);
+restartBtn.addEventListener("click", restartQuiz);
 
 // Functions
 function displayQuiz() {
