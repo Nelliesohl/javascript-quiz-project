@@ -115,7 +115,7 @@ function restartQuiz() {
   displayQuizData();
 }
 
-// Array of questions
+// Array of questions, choices and answers
 const quizData = [
   {
     question: "Which of the following is correct about JavaScript?",
