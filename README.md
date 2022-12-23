@@ -1,6 +1,6 @@
 # JavaScript Quiz
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/mockup.png)
 
 Alongside HTML and CSS, JavaScript makes up the holy trinity of front-end technologies. Front ends of all websites, whether small or large, are built using these three languages and are a vital skill to have if you’re interested in becoming a front-end developer.
  
@@ -53,10 +53,10 @@ The main colours used are #FFFFFF (white), #FEC726 (yellow), and #000000 (black)
 
 __Typography__
 
-Jaldi and AbeeZee are the main fonts used in this project. 
+Jaldi and Poppins are the main fonts used in this project. 
 
 Jaldi is a simple but bold font suitable for headings. 
-Abeezee is a complimentary font that suits the overall site design. 
+Poppins is a complimentary font that suits the overall site design. 
 Sans-Serif is the fallback font in case for any reason the font isn't being imported into the site correctly.
 
 ---
