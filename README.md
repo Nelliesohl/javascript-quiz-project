@@ -132,10 +132,6 @@ __Ideas for future implementation__
 
 ## Testing
 
-...
-
----
-
 __Code Validation__ 
 
 ![Web Screenshot](assets/images/html-checker.png)
@@ -154,9 +150,21 @@ __Code Validation__
 
 __Unfixed Bugs__
 
+N/A
+
 ---
 
 __Supported Screens And Browsers__
+
+The site is fully responsive and works like intended across Chrome, Safari, Mozilla, and Firefox on the following devices:
+
+Chrome: iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ Samsung Galaxy S20 Ultra, iPad Air, iPad Mini, Surface Pro 7, Surface Duo, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max, Galaxy S5, MacBook Pro
+
+Safari: Safari 15.3, iPhone iOS 14.0, iPad iOS 14.0, iPhone iOS 13.1.3, iPod touch iOS 13.1.3, iPad Mini iOS 13.1.3, iPad iOS 13.1.3, MacBook Pro
+
+Mozilla: MacBook Pro
+
+Firefox: MacBook Pro
 
 ---
 
