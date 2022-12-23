@@ -75,7 +75,7 @@ Created with [Balsamiq](https://balsamiq.cloud/#)
 
 __Landing page__
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/landing-page.png)
 
 - The landing page is clear, simplistic, and easy to navigate.
 - The quiz title and description give the user an instant insight as to what the quiz is about and how it’s played.
@@ -84,7 +84,7 @@ __Landing page__
 
 __Quiz section__
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/quiz-section.png)
 
 - The quiz section displays a question and four different answers for the user to choose from.
 - One option must be selected to submit and move on to the next question.
@@ -95,7 +95,7 @@ __Quiz section__
 
 __Result section__
 
-![Web Screenshot](/...)
+![Web Screenshot](assets/images/result-section.png)
 
 - The result section displays the user’s total score and congratulates the user on her/his accomplishments.
 - The “Try Again” button offers the user to play again, taking them back to the first question if clicked.
