@@ -24,10 +24,10 @@ function displayQuiz() {
   quiz.classList.remove("hidden"); // Shows quiz section 
 
   // Function that displays question and options
-  nextQuestion();
+  displayQuizData();
 }
 
-function nextQuestion() {
+function displayQuizData() {
   // Get the current question object
   const question = quizData[currentQuestion];
 
