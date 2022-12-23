@@ -20,8 +20,11 @@ infoBtn.addEventListener("click", displayQuiz);
 
 // Functions
 function displayQuiz() {
-  info.classList.add("hidden"); // Hides HTML section 1
-  quiz.classList.remove("hidden"); // Shows HTML section 2
+  info.classList.add("hidden"); // Hides info section
+  quiz.classList.remove("hidden"); // Shows quiz section 
+
+  // Function that displays question and options
+  nextQuestion();
 }
 
 // Array of questions
