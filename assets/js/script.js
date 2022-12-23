@@ -141,7 +141,7 @@ const quizData = [
     answer: "toString()"
   },
   {
-    question: "Which of the following function of String object causes a string to be displayed as a subscript, as if it were in a <sub> tag?",
+    question: "Which of the following function of String object causes a string to be displayed as a subscript, as if it were in a sub tag?",
     choices: ["sup()", "small()", "strike()", "sub()"],
     answer: "sub()"
   },
