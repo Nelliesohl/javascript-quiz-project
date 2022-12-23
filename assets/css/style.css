@@ -136,3 +136,14 @@ label:hover {
     display: none;
 }
 
+/* User Feedback Borders */
+
+.green {
+    border: 5px solid #00D818;
+    border-style: outset;
+}
+
+.red {
+    border: 5px solid #D82000;
+    border-style: outset;
+}

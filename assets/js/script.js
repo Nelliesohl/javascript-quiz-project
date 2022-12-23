@@ -10,6 +10,8 @@ const restartBtn = document.getElementById("restart-btn");
 const radioButtons = document.getElementsByName("answer");
 const labels = document.getElementsByClassName("label");
 
+const quizContainer = document.getElementById("container");
+
 
 // Global variables used to track the number of correct answers and the current question
 let correctAnswers = 0;
@@ -58,7 +60,18 @@ function checkAnswer() {
   // Checks if it is the correct answer
   if (choice === quizData[currentQuestion].answer) {
     correctAnswers++;
-  }
+    // Correct answer adds green border
+    quizContainer.classList.add("green");
+  } else {
+    // Incorrect answer adds red border
+    quizContainer.classList.add("red");
+	}
+
+  // Removes border after 750 milliseconds
+  setTimeout(function() {
+  quizContainer.classList.remove("green");
+  quizContainer.classList.remove("red");
+}, 750);
 }
 
 function handleChoice() {
