@@ -117,6 +117,17 @@ __Ideas for future implementation__
 
 ## Technology
 
+|Technology|Description|
+|:---:|:---:|
+|__HTML5__|Hyper Text Markup Language|
+|__CSS__|Cascading Style Sheets|
+|__JavaScript__|High Level, Dynamic, Interpreted Language|
+|__Google fonts__|Font Service Owned By Google|
+|__GitHub__|Code Hosting Platform|
+|__Git__|Version-Control Tracking System|
+|__Gitpod__|Open-Source Developer Platform For Remote Development|
+|__Balsamiq__|web-based user interface design tool for creating wireframes|
+
 ---
 
 ## Testing
