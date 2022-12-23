@@ -43,6 +43,27 @@ function displayQuizData() {
   }
 }
 
+function handleChoice() {
+  checkSelectedRadioButton();
+  checkAnswer();
+  
+  // Iterate to the next question
+  currentQuestion++;
+
+  // Checks if there are more questions
+  if (currentQuestion === quizData.length) {
+    // Displays final score 
+    quiz.classList.add("hidden"); // Hides HTML quiz section
+    result.classList.remove("hidden"); // Shows HTML result sectiion
+    const score = document.getElementById("score");
+    score.textContent = `You got ${correctAnswers} / ${quizData.length} answers correct`;
+  } else {
+    // Clears selected answers
+    clearQuiz();
+    // Displays next question
+    displayQuizData();
+  }
+}
 
 // Array of questions
 const quizData = [
