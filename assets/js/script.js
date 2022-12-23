@@ -3,6 +3,10 @@ const info = document.getElementById("info")
 const infoBtn = document.getElementById("info-btn")
 const quiz = document.getElementById("quiz")
 
+// Global variables used to track the number of correct answers and the current question
+let correctAnswers = 0;
+let currentQuestion = 0;
+
 // Event listeners
 infoBtn.addEventListener("click", displayQuiz);
 
