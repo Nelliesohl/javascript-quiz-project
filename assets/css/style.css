@@ -21,17 +21,22 @@ body {
 
 h1 {
     font-family: 'Jaldi', sans-serif;
-    font-size: 3rem;
-    letter-spacing: 2px;
+    font-size: 2rem;
+    letter-spacing: 1px;
     padding: 1rem;
 }
 
 p {
     font-family: 'poppins', sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
     margin: 0 2rem 0 2rem;
+}
+
+#heading {
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* List Items */
@@ -40,7 +45,7 @@ ul {
     display: inline-block;
     font-family: 'poppins', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem 2rem 2rem 4rem;
     text-align: left;
 }
@@ -86,7 +91,7 @@ button {
     border-radius: 0 0 10px 10px;
     color: black;
     font-family: 'Jaldi', sans-serif;
-    font-size: 2.3rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     padding: 1rem;
     text-align: center;
