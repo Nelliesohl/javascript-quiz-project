@@ -27,6 +27,22 @@ function displayQuiz() {
   nextQuestion();
 }
 
+function nextQuestion() {
+  // Get the current question object
+  const question = quizData[currentQuestion];
+
+  // Update question 
+  const questionElement = document.getElementById("question");
+  questionElement.innerHTML = question.question;
+
+  // Update labels and values
+  for (let i = 0; i < labels.length; i++) {
+    labels[i].innerHTML = question.choices[i];
+    radioButtons[i].value = question.choices[i];
+  }
+}
+
+
 // Array of questions
 const quizData = [
   {
