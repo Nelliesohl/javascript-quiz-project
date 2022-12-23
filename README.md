@@ -10,7 +10,7 @@ How much do you know about JavaScript?
 
 Let’s find out…
 
-View live project here - [JavaScript Quiz](…)
+View live project here - [JavaScript Quiz](https://nelliesohl.github.io/javascript-quiz-project/)
 
 
 ---
